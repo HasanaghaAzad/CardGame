@@ -49,8 +49,11 @@ Host: localhost:6000
 ### Create a new Deck
 
 POST /decks/ HTTP/1.1
+
 Host: localhost:6000
+
 Content-Type: application/x-www-form-urlencoded
+
 Content-Length: 24
 
 shuffled=false&type=FULL
@@ -66,8 +69,11 @@ Host: localhost:6000
 ### Draw a Card
 
 PUT /decks/625fca849c5d860fee5a9297 HTTP/1.1
+
 Host: localhost:6000
+
 Content-Type: application/x-www-form-urlencoded
+
 Content-Length: 7
 
 count=2
