@@ -1,6 +1,8 @@
 # CardGame
 
-Card Game like Poker and Blackjack. The goal is to create an API to handle decks and cards to be used in any game like these.
+Card Game like Poker and Blackjack. The goal is to create an API to handle decks and cards to be used in any game like these. I used NodeJS Express, MongoDB, Babel.
+For database I used MongoDB in Docker.
+For tests I used Jasmine
 
 ## INSTALL
 
