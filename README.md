@@ -10,7 +10,13 @@ Card Game like Poker and Blackjack. The goal is to create an API to handle decks
 
 git clone https://github.com/HasanaghaAzad/CardGame.git
 
+```
+
 cd CardGame
+
+```
+
+```
 
 npm install
 
@@ -28,6 +34,10 @@ Terminal
 ```
 
 docker pull mongo
+
+```
+
+```
 
 docker run --name mongodb -p 37017:27017 -d mongo
 
@@ -69,3 +79,4 @@ count=2
 
 _625fca849c5d860fee5a9297 is deckId what we got when created new Deck_
 _count is count of cards to draw_
+```
