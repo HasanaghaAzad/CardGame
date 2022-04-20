@@ -2,7 +2,9 @@
 
 Card Game like Poker and Blackjack. The goal is to create an API to handle decks and cards to be used in any game like these.
 
-INSTALL
+##INSTALL
+
+###Download and install code
 
 Terminal
 
@@ -12,9 +14,12 @@ cd CardGame
 
 npm install
 
-INSTALL DOCKER
+###Install Docker
 
-INSTALL MONGODB
+I used Docker for mongoDB.
+https://docs.docker.com/get-docker/
+
+###Install MongoDB
 
 Terminal
 
@@ -22,16 +27,16 @@ docker pull mongo
 
 docker run --name mongodb -p 37017:27017 -d mongo
 
-START
+##START
 
 npm start
 
-USAGE
+##USAGE
 
 GET /decks/ HTTP/1.1
 Host: localhost:6000
 
-Create a new Deck
+###Create a new Deck
 
 POST /decks/ HTTP/1.1
 Host: localhost:6000
@@ -40,14 +45,14 @@ Content-Length: 24
 
 shuffled=false&type=FULL
 
-Open a Deck
+###Open a Deck
 
 GET /decks/625fca849c5d860fee5a9297 HTTP/1.1
 Host: localhost:6000
 
 625fca849c5d860fee5a9297 is deckId what we got when created new Deck
 
-Draw a Card
+###Draw a Card
 
 PUT /decks/625fca849c5d860fee5a9297 HTTP/1.1
 Host: localhost:6000
