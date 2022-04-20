@@ -1,0 +1,25 @@
+{
+  "name": "cardgame",
+  "version": "1.0.0",
+  "description": "Card Game like Poker and Blackjack. The goal is to create an API to handle decks and cards to be used in any game like these.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "author": "Hasanagha Azad",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongodb": "^4.5.0",
+    "mongoose": "^6.3.0",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "jasmine": "^4.1.0",
+    "request": "^2.88.2"
+  }
+}
