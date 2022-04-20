@@ -50,7 +50,7 @@ shuffled=false&type=FULL
 GET /decks/625fca849c5d860fee5a9297 HTTP/1.1
 Host: localhost:6000
 
-625fca849c5d860fee5a9297 is deckId what we got when created new Deck
+_625fca849c5d860fee5a9297 is deckId what we got when created new Deck_
 
 ### Draw a Card
 
@@ -61,5 +61,5 @@ Content-Length: 7
 
 count=2
 
-625fca849c5d860fee5a9297 is deckId what we got when created new Deck
-count is count of cards to draw
+_625fca849c5d860fee5a9297 is deckId what we got when created new Deck_
+_count is count of cards to draw_
